@@ -71,28 +71,29 @@ public class ZKNodeOperator implements Watcher {
     public static void main(String[] args) throws Exception {
         ZKNodeOperator zkServer = new ZKNodeOperator(zkServerPath);
         // 创建zk节点
-     	zkServer.createZKNode("/testnodewq", "testnodewq".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE);
-/*
-        *//**
+     	/*zkServer.createZKNode("/testnodewq", "testnodewq".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE);*/
+
+        /**
          * 参数：
          * path：节点路径
          * data：数据
          * version：数据状态
-         *//*
+         */
 //		Stat status  = zkServer.getZookeeper().setData("/testnode", "xyz".getBytes(), 2);
 //		System.out.println(status.getVersion());
 
-        *//**
+        /**
          * 参数：
          * path：节点路径
          * version：数据状态
-         *//*
-        zkServer.createZKNode("/test-delete-node", "123".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE);
-//		zkServer.getZookeeper().delete("/test-delete-node", 2);
+         */
+        /*zkServer.createZKNode("/test-delete-node", "123".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE);//同步
+    	zkServer.getZookeeper().delete("/test-delete-node", 0);//0代表版本号*/
 
         String ctx = "{'delete':'success'}";
+        //异步删除
         zkServer.getZookeeper().delete("/test-delete-node", 0, new DeleteCallBack(), ctx);
-        Thread.sleep(2000);*/
+        Thread.sleep(30000);
     }
 
     public ZooKeeper getZookeeper() {
