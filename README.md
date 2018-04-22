@@ -1,6 +1,6 @@
 ## 我的Zookeeper学习成长之路
 
-* 详见文档：(《zookeeper学习》)[https://github.com/WuqingVika/WqZookeeperDemo/zookeeper学习.docx]
+* 详见文档：[《zookeeper学习》](https://github.com/WuqingVika/WqZookeeperDemo/blob/master/zookeeper%E5%AD%A6%E4%B9%A0.docx)
 
 * 注:未经本人同意，不得进行上传转载分享！
 
