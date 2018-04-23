@@ -1,7 +1,8 @@
-package com.wq;
+package com.wq.zk;
 
 import org.apache.zookeeper.*;
 import org.apache.zookeeper.data.ACL;
+import org.apache.zookeeper.data.Stat;
 
 import java.io.IOException;
 import java.util.List;
@@ -78,9 +79,10 @@ public class ZKNodeOperator implements Watcher {
          * path：节点路径
          * data：数据
          * version：数据状态
+         * 这里只演示同步
          */
-//		Stat status  = zkServer.getZookeeper().setData("/testnode", "xyz".getBytes(), 2);
-//		System.out.println(status.getVersion());
+	Stat status  = zkServer.getZookeeper().setData("/testnode", "xyz".getBytes(), 0);
+	System.out.println(status.getVersion());
 
         /**
          * 参数：
@@ -90,10 +92,10 @@ public class ZKNodeOperator implements Watcher {
         /*zkServer.createZKNode("/test-delete-node", "123".getBytes(), ZooDefs.Ids.OPEN_ACL_UNSAFE);//同步
     	zkServer.getZookeeper().delete("/test-delete-node", 0);//0代表版本号*/
 
-        String ctx = "{'delete':'success'}";
+       /* String ctx = "{'delete':'success'}";
         //异步删除
         zkServer.getZookeeper().delete("/test-delete-node", 0, new DeleteCallBack(), ctx);
-        Thread.sleep(30000);
+        Thread.sleep(30000);*/
     }
 
     public ZooKeeper getZookeeper() {
