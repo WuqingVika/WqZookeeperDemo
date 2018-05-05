@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zookeeper-curator:war">
+    <output-path>$PROJECT_DIR$/zookeeper-curator/target</output-path>
+    <root id="archive" name="zookeeper-curator.war">
+      <element id="artifact" artifact-name="zookeeper-curator:war exploded" />
+    </root>
+  </artifact>
+</component>

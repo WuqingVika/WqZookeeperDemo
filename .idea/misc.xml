@@ -39,12 +39,14 @@
     </properties>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/zookeeper-curator" />
     <file type="web" url="file://$PROJECT_DIR$/zookeeper-starter" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/zookeeper-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/zookeeper-curator/pom.xml" />
       </list>
     </option>
   </component>
