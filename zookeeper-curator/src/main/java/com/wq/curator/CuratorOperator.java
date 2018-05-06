@@ -4,11 +4,8 @@ import java.util.List;
 import org.apache.curator.RetryPolicy;
 import org.apache.curator.framework.CuratorFramework;
 import org.apache.curator.framework.CuratorFrameworkFactory;
-import org.apache.curator.framework.recipes.cache.ChildData;
-import org.apache.curator.framework.recipes.cache.PathChildrenCache;
+import org.apache.curator.framework.recipes.cache.*;
 import org.apache.curator.framework.recipes.cache.PathChildrenCache.StartMode;
-import org.apache.curator.framework.recipes.cache.PathChildrenCacheEvent;
-import org.apache.curator.framework.recipes.cache.PathChildrenCacheListener;
 import org.apache.curator.retry.RetryNTimes;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.ZooDefs;
@@ -124,71 +121,69 @@ public class CuratorOperator{
 
 
         // 判断节点是否存在,如果不存在则为空
- 		Stat statExist = cto.client.checkExists().forPath(nodePath +"/abc");
- 		System.out.println(statExist);
+ 		/*Stat statExist = cto.client.checkExists().forPath(nodePath +"/abc");
+ 		System.out.println(statExist);*/
 
 
         // watcher 事件  当使用usingWatcher的时候，监听只会触发一次，监听完毕后就销毁
-//		cto.client.getData().usingWatcher(new MyCuratorWatcher()).forPath(nodePath);
-//		cto.client.getData().usingWatcher(new MyWatcher()).forPath(nodePath);
+        /*cto.client.getData().usingWatcher(new MyCuratorWatcher()).forPath(nodePath);
+        //cto.client.getData().usingWatcher(new MyWatcher()).forPath(nodePath);//原生的方式qwu
+        Thread.sleep(50000);*/
 
+        /*String nodePath = "/super/wqqw";
         // 为节点添加watcher
         // NodeCache: 监听数据节点的变更，会触发事件
-//		final NodeCache nodeCache = new NodeCache(cto.client, nodePath);
+        final NodeCache nodeCache = new NodeCache(cto.client, nodePath);
 //		// buildInitial : 初始化的时候获取node的值并且缓存
-//		nodeCache.start(true);
-//		if (nodeCache.getCurrentData() != null) {
-//			System.out.println("节点初始化数据为：" + new String(nodeCache.getCurrentData().getData()));
-//		} else {
-//			System.out.println("节点初始化数据为空...");
-//		}
-//		nodeCache.getListenable().addListener(new NodeCacheListener() {
-//			public void nodeChanged() throws Exception {
-//				if (nodeCache.getCurrentData() == null) {
-//					System.out.println("空");
-//					return;
-//				}
-//				String data = new String(nodeCache.getCurrentData().getData());
-//				System.out.println("节点路径：" + nodeCache.getCurrentData().getPath() + "数据：" + data);
-//			}
-//		});
-
+        nodeCache.start(true);
+        if (nodeCache.getCurrentData() != null) {
+            System.out.println("节点初始化数据为：" + new String(nodeCache.getCurrentData().getData()));
+        } else {
+            System.out.println("节点初始化数据为空...");
+        }
+        nodeCache.getListenable().addListener(new NodeCacheListener() {
+            public void nodeChanged() throws Exception {
+                if (nodeCache.getCurrentData() == null) {
+                    System.out.println("空");
+                    return;
+                }
+                String data = new String(nodeCache.getCurrentData().getData());
+                System.out.println("节点路径：" + nodeCache.getCurrentData().getPath() + "数据：" + data);
+            }
+        });
+        Thread.sleep(100000);*/
 
         // 为子节点添加watcher
         // PathChildrenCache: 监听数据节点的增删改，会触发事件
-       /* String childNodePathCache =  nodePath;
+        String childNodePathCache = nodePath;
         // cacheData: 设置缓存节点的数据状态
         final PathChildrenCache childrenCache = new PathChildrenCache(cto.client, childNodePathCache, true);
-        *//**
+       /**
          * StartMode: 初始化方式
          * POST_INITIALIZED_EVENT：异步初始化，初始化之后会触发事件
          * NORMAL：异步初始化
          * BUILD_INITIAL_CACHE：同步初始化
-         *//*
+         */
         childrenCache.start(StartMode.POST_INITIALIZED_EVENT);
-
         List<ChildData> childDataList = childrenCache.getCurrentData();
         System.out.println("当前数据节点的子节点数据列表：");
         for (ChildData cd : childDataList) {
             String childData = new String(cd.getData());
             System.out.println(childData);
         }
-
         childrenCache.getListenable().addListener(new PathChildrenCacheListener() {
             public void childEvent(CuratorFramework client, PathChildrenCacheEvent event) throws Exception {
                 if(event.getType().equals(PathChildrenCacheEvent.Type.INITIALIZED)){
                     System.out.println("子节点初始化ok...");
                 }
-
                 else if(event.getType().equals(PathChildrenCacheEvent.Type.CHILD_ADDED)){
                     String path = event.getData().getPath();
                     if (path.equals(ADD_PATH)) {
                         System.out.println("添加子节点:" + event.getData().getPath());
                         System.out.println("子节点数据:" + new String(event.getData().getData()));
-                    } else if (path.equals("/super/imooc/e")) {
+                    } else if (path.equals("/super/wuqingvika/e")) {
                         System.out.println("添加不正确...");
                     }
-
                 }else if(event.getType().equals(PathChildrenCacheEvent.Type.CHILD_REMOVED)){
                     System.out.println("删除子节点:" + event.getData().getPath());
                 }else if(event.getType().equals(PathChildrenCacheEvent.Type.CHILD_UPDATED)){
@@ -198,13 +193,13 @@ public class CuratorOperator{
             }
         });
 
-        Thread.sleep(100000);*/
-       Thread.sleep(5000);
+        Thread.sleep(100000);
+       //Thread.sleep(30000);
         cto.closeZKClient();
         boolean isZkCuratorStarted2 = cto.client.isStarted();
         System.out.println("当前客户的状态：" + (isZkCuratorStarted2 ? "连接中" : "已关闭"));
     }
 
-    public final static String ADD_PATH = "/super/imooc/d";
+    public final static String ADD_PATH = "/super/wuqingvika/d";
 
 }
