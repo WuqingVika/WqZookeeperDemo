@@ -12,6 +12,7 @@ import org.apache.curator.framework.recipes.cache.PathChildrenCacheListener;
 import org.apache.curator.retry.RetryNTimes;
 import org.apache.zookeeper.CreateMode;
 import org.apache.zookeeper.ZooDefs;
+import org.apache.zookeeper.data.Stat;
 
 
 /**
@@ -98,32 +99,33 @@ public class CuratorOperator{
     	cto.client.setData().withVersion(0)//这里要注意dataVersion
                 .forPath(nodePath, newData);*/
         // 删除节点
-		cto.client.delete()
+		/*cto.client.delete()
 			  .guaranteed()					// 如果删除失败，那么在后端还是继续会删除，直到成功
 			  .deletingChildrenIfNeeded()	// 如果有子节点，就删除
 			  .withVersion(0)
-			  .forPath(nodePath);
+			  .forPath(nodePath);*/
 
 
         // 读取节点数据
-//		Stat stat = new Stat();
-//		byte[] data = cto.client.getData().storingStatIn(stat).forPath(nodePath);
-//		System.out.println("节点" + nodePath + "的数据为: " + new String(data));
-//		System.out.println("该节点的版本号为: " + stat.getVersion());
+ 	    /*Stat stat = new Stat();
+ 	    byte[] data = cto.client.getData().storingStatIn(stat)//将状态信息拿到再赋给stat 不要去掉
+                .forPath(nodePath);
+ 		System.out.println("节点" + nodePath + "的数据为: " + new String(data));
+ 		System.out.println("该节点的版本号为: " + stat.getVersion());*/
 
 
-        // 查询子节点
-//		List<String> childNodes = cto.client.getChildren()
-//											.forPath(nodePath);
-//		System.out.println("开始打印子节点：");
-//		for (String s : childNodes) {
-//			System.out.println(s);
-//		}
+        // 查询子节点 路径"/super/wuqingvika";
+ 		/*List<String> childNodes = cto.client.getChildren()
+ 											.forPath(nodePath);
+ 		System.out.println("开始打印子节点：");
+ 		for (String s : childNodes) {
+ 			System.out.println(s);
+ 		}*/
 
 
         // 判断节点是否存在,如果不存在则为空
-//		Stat statExist = cto.client.checkExists().forPath(nodePath + "/abc");
-//		System.out.println(statExist);
+ 		Stat statExist = cto.client.checkExists().forPath(nodePath +"/abc");
+ 		System.out.println(statExist);
 
 
         // watcher 事件  当使用usingWatcher的时候，监听只会触发一次，监听完毕后就销毁
