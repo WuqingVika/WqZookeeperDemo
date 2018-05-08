@@ -4,7 +4,7 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5">
 
-	<display-name>imooc-single-mvc-web</display-name>
+	<display-name>wq-single-mvc-web</display-name>
 
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
@@ -49,7 +49,7 @@
 	
 	<!-- springmvc的前端控制器 -->
 	<servlet>
-		<servlet-name>imooc-single-mvc-web</servlet-name>
+		<servlet-name>wq-single-mvc-web</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
 		<init-param>
 			<param-name>contextConfigLocation</param-name>
@@ -59,7 +59,7 @@
 	</servlet>
 	
 	<servlet-mapping>
-		<servlet-name>imooc-single-mvc-web</servlet-name>
+		<servlet-name>wq-single-mvc-web</servlet-name>
 		<url-pattern>*.action</url-pattern>
 	</servlet-mapping>
 	

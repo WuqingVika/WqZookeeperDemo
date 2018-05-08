@@ -11,7 +11,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.wq</groupId>
-			<artifactId>wq-single-mvc-mapper</artifactId>
+			<artifactId>wq-single-mvc-mapper</artifactId><!--它又依赖mapper项目-->
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		

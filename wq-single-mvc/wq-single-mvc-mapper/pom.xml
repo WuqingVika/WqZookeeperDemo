@@ -11,7 +11,7 @@
 	<dependencies>
 		<dependency>
 			<groupId>com.wq</groupId>
-			<artifactId>wq-single-mvc-pojo</artifactId>
+			<artifactId>wq-single-mvc-pojo</artifactId><!--它又依赖pojo层-->
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		

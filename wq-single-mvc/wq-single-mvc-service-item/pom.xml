@@ -10,7 +10,7 @@
 	
 	<dependencies>
 		<dependency>
-			<groupId>com.wq</groupId>
+			<groupId>com.wq</groupId><!--它又依赖mapper-->
 			<artifactId>wq-single-mvc-mapper</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>

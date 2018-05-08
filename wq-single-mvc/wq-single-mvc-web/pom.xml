@@ -13,12 +13,12 @@
 		
 		<dependency>
 			<groupId>com.wq</groupId>
-			<artifactId>wq-single-mvc-service-item</artifactId>
+			<artifactId>wq-single-mvc-service-item</artifactId><!--它又依赖商品service项目-->
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>com.wq</groupId>
-			<artifactId>wq-single-mvc-service-order</artifactId>
+			<artifactId>wq-single-mvc-service-order</artifactId><!--它又依赖订单service项目-->
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		
