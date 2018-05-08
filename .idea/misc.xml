@@ -39,6 +39,8 @@
     </properties>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper" />
+    <file type="web" url="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web" />
     <file type="web" url="file://$PROJECT_DIR$/zookeeper-curator" />
     <file type="web" url="file://$PROJECT_DIR$/zookeeper-starter" />
   </component>
@@ -47,6 +49,7 @@
       <list>
         <option value="$PROJECT_DIR$/zookeeper-starter/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-curator/pom.xml" />
+        <option value="$PROJECT_DIR$/imooc-single-mvc/pom.xml" />
       </list>
     </option>
   </component>
