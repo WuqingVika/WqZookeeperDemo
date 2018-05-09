@@ -1,4 +1,4 @@
-package com.wq.pojo;
+package com.wq.item.pojo;
 
 import java.util.ArrayList;
 import java.util.List;

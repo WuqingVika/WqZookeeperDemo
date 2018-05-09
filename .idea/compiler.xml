@@ -13,6 +13,7 @@
         <module name="imooc-single-mvc-service-order" />
         <module name="imooc-single-mvc-web" />
         <module name="mybatis-generator-sqlmapper" />
+        <module name="wq-dubbo-item-api" />
         <module name="wq-single-mvc-common" />
         <module name="wq-single-mvc-mapper" />
         <module name="wq-single-mvc-pojo" />
@@ -32,6 +33,8 @@
       <module name="imooc-single-mvc-service-order" target="1.8" />
       <module name="imooc-single-mvc-web" target="1.8" />
       <module name="mybatis-generator-sqlmapper" target="1.8" />
+      <module name="wq-dubbo" target="1.8" />
+      <module name="wq-dubbo-item-api" target="1.8" />
       <module name="wq-single-mvc" target="1.8" />
       <module name="wq-single-mvc-common" target="1.8" />
       <module name="wq-single-mvc-mapper" target="1.8" />

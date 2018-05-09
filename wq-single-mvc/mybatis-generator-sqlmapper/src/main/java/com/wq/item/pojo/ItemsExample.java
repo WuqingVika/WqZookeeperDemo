@@ -1,16 +1,16 @@
-package com.wq.pojo;
+package com.wq.item.pojo;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class OrdersExample {
+public class ItemsExample {
     protected String orderByClause;
 
     protected boolean distinct;
 
     protected List<Criteria> oredCriteria;
 
-    public OrdersExample() {
+    public ItemsExample() {
         oredCriteria = new ArrayList<Criteria>();
     }
 
@@ -174,143 +174,133 @@ public class OrdersExample {
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumIsNull() {
-            addCriterion("order_num is null");
+        public Criteria andNameIsNull() {
+            addCriterion("name is null");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumIsNotNull() {
-            addCriterion("order_num is not null");
+        public Criteria andNameIsNotNull() {
+            addCriterion("name is not null");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumEqualTo(String value) {
-            addCriterion("order_num =", value, "orderNum");
+        public Criteria andNameEqualTo(String value) {
+            addCriterion("name =", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumNotEqualTo(String value) {
-            addCriterion("order_num <>", value, "orderNum");
+        public Criteria andNameNotEqualTo(String value) {
+            addCriterion("name <>", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumGreaterThan(String value) {
-            addCriterion("order_num >", value, "orderNum");
+        public Criteria andNameGreaterThan(String value) {
+            addCriterion("name >", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumGreaterThanOrEqualTo(String value) {
-            addCriterion("order_num >=", value, "orderNum");
+        public Criteria andNameGreaterThanOrEqualTo(String value) {
+            addCriterion("name >=", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumLessThan(String value) {
-            addCriterion("order_num <", value, "orderNum");
+        public Criteria andNameLessThan(String value) {
+            addCriterion("name <", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumLessThanOrEqualTo(String value) {
-            addCriterion("order_num <=", value, "orderNum");
+        public Criteria andNameLessThanOrEqualTo(String value) {
+            addCriterion("name <=", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumLike(String value) {
-            addCriterion("order_num like", value, "orderNum");
+        public Criteria andNameLike(String value) {
+            addCriterion("name like", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumNotLike(String value) {
-            addCriterion("order_num not like", value, "orderNum");
+        public Criteria andNameNotLike(String value) {
+            addCriterion("name not like", value, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumIn(List<String> values) {
-            addCriterion("order_num in", values, "orderNum");
+        public Criteria andNameIn(List<String> values) {
+            addCriterion("name in", values, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumNotIn(List<String> values) {
-            addCriterion("order_num not in", values, "orderNum");
+        public Criteria andNameNotIn(List<String> values) {
+            addCriterion("name not in", values, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumBetween(String value1, String value2) {
-            addCriterion("order_num between", value1, value2, "orderNum");
+        public Criteria andNameBetween(String value1, String value2) {
+            addCriterion("name between", value1, value2, "name");
             return (Criteria) this;
         }
 
-        public Criteria andOrderNumNotBetween(String value1, String value2) {
-            addCriterion("order_num not between", value1, value2, "orderNum");
+        public Criteria andNameNotBetween(String value1, String value2) {
+            addCriterion("name not between", value1, value2, "name");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdIsNull() {
-            addCriterion("item_id is null");
+        public Criteria andCountsIsNull() {
+            addCriterion("counts is null");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdIsNotNull() {
-            addCriterion("item_id is not null");
+        public Criteria andCountsIsNotNull() {
+            addCriterion("counts is not null");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdEqualTo(String value) {
-            addCriterion("item_id =", value, "itemId");
+        public Criteria andCountsEqualTo(Integer value) {
+            addCriterion("counts =", value, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdNotEqualTo(String value) {
-            addCriterion("item_id <>", value, "itemId");
+        public Criteria andCountsNotEqualTo(Integer value) {
+            addCriterion("counts <>", value, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdGreaterThan(String value) {
-            addCriterion("item_id >", value, "itemId");
+        public Criteria andCountsGreaterThan(Integer value) {
+            addCriterion("counts >", value, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdGreaterThanOrEqualTo(String value) {
-            addCriterion("item_id >=", value, "itemId");
+        public Criteria andCountsGreaterThanOrEqualTo(Integer value) {
+            addCriterion("counts >=", value, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdLessThan(String value) {
-            addCriterion("item_id <", value, "itemId");
+        public Criteria andCountsLessThan(Integer value) {
+            addCriterion("counts <", value, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdLessThanOrEqualTo(String value) {
-            addCriterion("item_id <=", value, "itemId");
+        public Criteria andCountsLessThanOrEqualTo(Integer value) {
+            addCriterion("counts <=", value, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdLike(String value) {
-            addCriterion("item_id like", value, "itemId");
+        public Criteria andCountsIn(List<Integer> values) {
+            addCriterion("counts in", values, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdNotLike(String value) {
-            addCriterion("item_id not like", value, "itemId");
+        public Criteria andCountsNotIn(List<Integer> values) {
+            addCriterion("counts not in", values, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdIn(List<String> values) {
-            addCriterion("item_id in", values, "itemId");
+        public Criteria andCountsBetween(Integer value1, Integer value2) {
+            addCriterion("counts between", value1, value2, "counts");
             return (Criteria) this;
         }
 
-        public Criteria andItemIdNotIn(List<String> values) {
-            addCriterion("item_id not in", values, "itemId");
-            return (Criteria) this;
-        }
-
-        public Criteria andItemIdBetween(String value1, String value2) {
-            addCriterion("item_id between", value1, value2, "itemId");
-            return (Criteria) this;
-        }
-
-        public Criteria andItemIdNotBetween(String value1, String value2) {
-            addCriterion("item_id not between", value1, value2, "itemId");
+        public Criteria andCountsNotBetween(Integer value1, Integer value2) {
+            addCriterion("counts not between", value1, value2, "counts");
             return (Criteria) this;
         }
     }

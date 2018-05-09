@@ -39,6 +39,7 @@
     </properties>
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api" />
     <file type="web" url="file://$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper" />
     <file type="web" url="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web" />
     <file type="web" url="file://$PROJECT_DIR$/zookeeper-curator" />
@@ -50,6 +51,9 @@
         <option value="$PROJECT_DIR$/zookeeper-starter/pom.xml" />
         <option value="$PROJECT_DIR$/zookeeper-curator/pom.xml" />
         <option value="$PROJECT_DIR$/imooc-single-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/wq-single-mvc/pom.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/pom.xml" />
       </list>
     </option>
   </component>

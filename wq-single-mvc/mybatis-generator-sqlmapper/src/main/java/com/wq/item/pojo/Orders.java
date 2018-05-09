@@ -1,4 +1,4 @@
-package com.wq.pojo;
+package com.wq.item.pojo;
 
 public class Orders {
     private String id;

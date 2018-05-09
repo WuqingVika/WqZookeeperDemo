@@ -1,4 +1,4 @@
-package com.wq.pojo;
+package com.wq.item.pojo;
 
 public class Items {
     private String id;
@@ -6,6 +6,8 @@ public class Items {
     private String name;
 
     private Integer counts;
+    
+    private Integer buyCounts;
 
     public String getId() {
         return id;
@@ -30,4 +32,13 @@ public class Items {
     public void setCounts(Integer counts) {
         this.counts = counts;
     }
+
+	public Integer getBuyCounts() {
+		return buyCounts;
+	}
+
+	public void setBuyCounts(Integer buyCounts) {
+		this.buyCounts = buyCounts;
+	}
+    
 }

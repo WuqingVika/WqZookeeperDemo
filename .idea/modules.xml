@@ -2,14 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://D:\wqlesson\zookeeperdemo\wq-single-mvc\wq-single-mvc-pojo\imooc-single-mvc-pojo.iml" filepath="D:\wqlesson\zookeeperdemo\wq-single-mvc\wq-single-mvc-pojo\imooc-single-mvc-pojo.iml" />
+      <module fileurl="file://D:\wqlesson\zookeeperdemo\wq-single-mvc\wq-single-mvc-web\imooc-single-mvc-web.iml" filepath="D:\wqlesson\zookeeperdemo\wq-single-mvc\wq-single-mvc-web\imooc-single-mvc-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/mybatis-generator-sqlmapper.iml" filepath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/mybatis-generator-sqlmapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/wq-dubbo-item-api.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/wq-dubbo-item-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/wq-single-mvc-common.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/wq-single-mvc-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/wq-single-mvc-mapper.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/wq-single-mvc-mapper.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/imooc-single-mvc-pojo.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/imooc-single-mvc-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/wq-single-mvc-pojo.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/wq-single-mvc-pojo.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/wq-single-mvc-service-item.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/wq-single-mvc-service-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-order/wq-single-mvc-service-order.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-order/wq-single-mvc-service-order.iml" />
-      <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/imooc-single-mvc-web.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/imooc-single-mvc-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/wq-single-mvc-web.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/wq-single-mvc-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-curator/zookeeper-curator.iml" filepath="$PROJECT_DIR$/zookeeper-curator/zookeeper-curator.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/zookeeperdemo.iml" filepath="$PROJECT_DIR$/.idea/zookeeperdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/zookeeper-starter/zookeeperstarter.iml" filepath="$PROJECT_DIR$/zookeeper-starter/zookeeperstarter.iml" />

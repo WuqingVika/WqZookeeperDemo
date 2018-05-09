@@ -1,6 +1,6 @@
 package com.wq.order.service;
 
-import com.wq.pojo.Orders;
+import com.wq.item.pojo.Orders;
 
 public interface OrdersService {
 

@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
 
 import com.wq.mapper.OrdersMapper;
 import com.wq.order.service.OrdersService;
-import com.wq.pojo.Orders;
+import com.wq.item.pojo.Orders;
 
 @Service("ordersService")
 public class OrdersServiceImpl implements OrdersService {

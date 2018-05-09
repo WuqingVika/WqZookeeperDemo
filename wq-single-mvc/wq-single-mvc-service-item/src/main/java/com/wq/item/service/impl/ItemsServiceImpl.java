@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.wq.mapper.ItemsMapper;
-import com.wq.pojo.Items;
+import com.wq.item.pojo.Items;
 
 @Service("itemsService")
 public class ItemsServiceImpl implements ItemsService {

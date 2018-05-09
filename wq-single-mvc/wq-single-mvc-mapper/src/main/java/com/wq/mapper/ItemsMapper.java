@@ -4,8 +4,8 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Param;
 
-import com.wq.pojo.Items;
-import com.wq.pojo.ItemsExample;
+import com.wq.item.pojo.Items;
+import com.wq.item.pojo.ItemsExample;
 
 public interface ItemsMapper {
     int countByExample(ItemsExample example);

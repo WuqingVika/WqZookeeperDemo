@@ -1,7 +1,7 @@
 package com.wq.mapper;
 
-import com.wq.pojo.Items;
-import com.wq.pojo.ItemsExample;
+import com.wq.item.pojo.Items;
+import com.wq.item.pojo.ItemsExample;
 import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
