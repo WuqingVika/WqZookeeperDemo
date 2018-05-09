@@ -1,11 +1,10 @@
 package com.wq.item.service.impl;
 
+import com.wq.item.pojo.Items;
 import com.wq.item.service.ItemsService;
+import com.wq.item.mapper.ItemsMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
-import com.wq.item.mapper.ItemsMapper;
-import com.wq.item.pojo.Items;
 
 @Service("itemsService")
 public class ItemsServiceImpl implements ItemsService {
@@ -21,7 +20,7 @@ public class ItemsServiceImpl implements ItemsService {
 	@Override
 	public int getItemCounts(String itemId) {
 		Items item = itemsMapper.selectByPrimaryKey(itemId);
-		return item.getCounts();
+		return item.getCounts();//返回商品库存
 	}
 
 	@Override

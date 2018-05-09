@@ -1,14 +1,12 @@
-package com.wq.mapper;
-
-import java.util.List;
-
-import org.apache.ibatis.annotations.Param;
+package com.wq.item.mapper;
 
 import com.wq.item.pojo.Orders;
 import com.wq.item.pojo.OrdersExample;
+import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface OrdersMapper {
-    int countByExample(OrdersExample example);
+    long countByExample(OrdersExample example);
 
     int deleteByExample(OrdersExample example);
 

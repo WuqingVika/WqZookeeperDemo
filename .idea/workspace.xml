@@ -2,47 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43a951d1-74d1-4db9-897c-079da5024697" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/wq_dubbo_item_api_war.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/wq_dubbo_item_api_war_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/src/main/java/com/wq/item/service/ItemsService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/wq-dubbo-item-api.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/item/pojo/Items.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/item/pojo/ItemsExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/wq_dubbo_item_service_war.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/wq_dubbo_item_service_war_exploded.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/item/mapper/ItemsMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/item/service/impl/ItemsServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/dubbo/dubbo.xsd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/mybatis/SqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/resource/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-dao.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-dubbo-provider.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-service.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-transaction.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/spring-context.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/wq-dubbo-item-service.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/item/mapper/ItemsMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/ItemsMapper.java" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/ItemsMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/ItemsMapper.xml" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/ItemsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/OrdersMapper.java" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/OrdersMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/OrdersMapper.xml" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/OrdersMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/wq-single-mvc-common.iml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/wq-single-mvc-common.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/ItemsMapper.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/ItemsMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/ItemsMapper.xml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/ItemsMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/OrdersMapper.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/OrdersMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/OrdersMapper.xml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/OrdersMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/wq-single-mvc-mapper.iml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/wq-single-mvc-mapper.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/wq-single-mvc-pojo.iml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/wq-single-mvc-pojo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/src/main/java/com/wq/item/service/ItemsService.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/src/main/java/com/wq/item/service/ItemsService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-dubbo/pom.xml" afterPath="$PROJECT_DIR$/wq-dubbo/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/pom.xml" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/src/main/java/com/wq/item/service/impl/ItemsServiceImpl.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/src/main/java/com/wq/item/service/impl/ItemsServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/wq-single-mvc-service-item.iml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/wq-single-mvc-service-item.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-order/src/main/java/com/wq/order/service/OrdersService.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-order/src/main/java/com/wq/order/service/OrdersService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-order/src/main/java/com/wq/order/service/impl/OrdersServiceImpl.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-order/src/main/java/com/wq/order/service/impl/OrdersServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-order/wq-single-mvc-service-order.iml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-order/wq-single-mvc-service-order.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/wq-single-mvc-web.iml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/wq-single-mvc-web.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/pojo/Items.java" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/item/pojo/Items.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/pojo/ItemsExample.java" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/src/main/java/com/wq/item/pojo/ItemsExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/pojo/Orders.java" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/item/pojo/Orders.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/pojo/OrdersExample.java" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/item/pojo/OrdersExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/pojo/Items.java" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/src/main/java/com/wq/item/pojo/Items.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/pojo/ItemsExample.java" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/item/pojo/ItemsExample.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/pojo/Orders.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/item/pojo/Orders.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/pojo/OrdersExample.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/item/pojo/OrdersExample.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/ItemsMapper.java" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/item/mapper/ItemsMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/ItemsMapper.xml" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/item/mapper/ItemsMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/OrdersMapper.java" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/item/mapper/OrdersMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/mapper/OrdersMapper.xml" afterPath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/java/com/wq/item/mapper/OrdersMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/ItemsMapper.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/item/mapper/ItemsMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/ItemsMapper.xml" afterPath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/item/mapper/ItemsMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/OrdersMapper.java" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/item/mapper/OrdersMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/OrdersMapper.xml" afterPath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/item/mapper/OrdersMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/zookeeper-starter/target/" />
     <ignored path="$PROJECT_DIR$/zookeeper-curator/target/" />
@@ -62,6 +55,7 @@
     <ignored path="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/target/" />
     <ignored path="$PROJECT_DIR$/wq-dubbo/target/" />
     <ignored path="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/target/" />
+    <ignored path="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -72,11 +66,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wq-dubbo/pom.xml">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+            <state relative-caret-position="25">
+              <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext-dubbo-provider.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-dubbo-provider.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -118,16 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/DeleteCallBack.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/ZKNodeOperator.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/zk/ZKNodeOperator.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/countdown/DangerCenter.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/countdown/StationBeijingWq.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/countdown/StationJiangsuWq.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/countdown/StationManguWq.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/countdown/CheckStartUp.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/zk/ZKGetNodeData.java" />
-        <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/zk/ChildrenCallBack.java" />
         <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/zk/Children2CallBack.java" />
         <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/zk/ZKGetChildrenList.java" />
         <option value="$PROJECT_DIR$/zookeeper-starter/src/main/java/com/wq/zk/ZKNodeExist.java" />
@@ -165,10 +159,20 @@
         <option value="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/src/main/resources/spring/applicationContext-dao.xml" />
-        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/pom.xml" />
         <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/src/main/java/service/impl/ItemsServiceImpl.java" />
         <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/src/main/java/com/wq/item/service/impl/ItemsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/pom.xml" />
         <option value="$PROJECT_DIR$/wq-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/service/impl/ItemsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/item/mapper/ItemsMapper.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/item/service/impl/ItemsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/resource/db.properties" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-transaction.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-dubbo-provider.xml" />
       </list>
     </option>
   </component>
@@ -230,8 +234,8 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="30" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -296,6 +300,170 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo-item-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo-item-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo-item-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo-item-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo-item-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo-item-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="wq-dubbo-item-api" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -326,6 +494,78 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo-item-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zookeeperdemo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wq-dubbo-item-api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -334,20 +574,21 @@
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-item-service\src\main\webapp" />
+      <recent name="D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-item-service\src\main\resources" />
+      <recent name="D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-item-service\src\main\java\com\wq\mapper" />
       <recent name="D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-item-api\src\main\java\com\wq\pojo" />
       <recent name="D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-item-api\src\main\java" />
-      <recent name="D:\wqlesson\zookeeperdemo\wq-single-mvc\mybatis-generator-sqlmapper\src\main\resources" />
-      <recent name="D:\wqlesson\zookeeperdemo\wq-single-mvc\mybatis-generator-sqlmapper\src\main\java\com\wq" />
-      <recent name="D:\wqlesson\zookeeperdemo\wq-single-mvc\mybatis-generator-sqlmapper\src\main\java" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wq.service.impl" />
       <recent name="com.wq" />
       <recent name="com.wq.countdown" />
     </key>
@@ -942,15 +1183,15 @@
       <workItem from="1525530275280" duration="4686000" />
       <workItem from="1525572687430" duration="14038000" />
       <workItem from="1525781746079" duration="11048000" />
-      <workItem from="1525875810257" duration="1424000" />
+      <workItem from="1525875810257" duration="4666000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61289000" />
+    <option name="totallyTimeSpent" value="64531000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="30" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -977,7 +1218,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328594" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1035,99 +1276,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/CuratorOperator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-705">
-          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1030">
-          <caret line="12" column="44" lean-forward="false" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/utils/RedisConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/checkConfig/Client2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-568">
-          <caret line="38" column="5" lean-forward="true" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/checkConfig/Client3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="44" column="0" lean-forward="true" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/utils/RedisConfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/checkConfig/Client1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-844">
-          <caret line="19" column="20" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/utils/AclUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="15" column="80" lean-forward="false" selection-start-line="15" selection-start-column="80" selection-end-line="15" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/zookeeper-curator/src/main/java/com/wq/curator/CuratorAcl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="66" column="15" lean-forward="false" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/src/main/java/com/wq/common/enums/OrderStatusEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="12" lean-forward="false" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/src/main/java/com/wq/common/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/src/main/java/com/wq/common/utils/IWqJSONResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/src/main/java/com/wq/item/pojo/Items.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/mybatisGeneratorSqlmapper/src/com/wq/mapper/ItemsMapper.xml" />
     <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/src/main/resources/resource/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
@@ -1144,14 +1292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="54" lean-forward="true" selection-start-line="12" selection-start-column="54" selection-end-line="12" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1189,14 +1329,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="32" column="47" lean-forward="true" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -1213,25 +1345,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/ItemsMapper.xml">
+    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/item/mapper/ItemsMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="69" column="16" lean-forward="false" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
           <folding>
-            <marker date="1525876784322" expanded="true" signature="3319:3420" ph="select from items" />
-            <marker date="1525876784322" expanded="true" signature="3506:3561" ph="delete from " />
-            <marker date="1525876784322" expanded="true" signature="3640:3657" ph="delete from " />
-            <marker date="1525876784322" expanded="true" signature="3813:3953" ph="insert into items... " />
-            <marker date="1525876784322" expanded="true" signature="4698:4724" ph="select count... items" />
-            <marker date="1525876784322" expanded="true" signature="5400:5551" ph="update items... " />
-            <marker date="1525876784322" expanded="true" signature="5738:5986" ph="update items... " />
-            <marker date="1525876784322" expanded="true" signature="6061:6194" ph="update items... " />
-            <marker date="1525876784322" expanded="true" signature="6265:6323" ph="update items... " />
+            <marker date="1525878096388" expanded="true" signature="3305:3406" ph="select from items" />
+            <marker date="1525878096388" expanded="true" signature="3492:3547" ph="delete from " />
+            <marker date="1525878096388" expanded="true" signature="3626:3643" ph="delete from " />
+            <marker date="1525878096388" expanded="true" signature="3799:3939" ph="insert into items... " />
+            <marker date="1525878096388" expanded="true" signature="4684:4710" ph="select count... items" />
+            <marker date="1525878096388" expanded="true" signature="5386:5537" ph="update items... " />
+            <marker date="1525878096388" expanded="true" signature="5724:5972" ph="update items... " />
+            <marker date="1525878096388" expanded="true" signature="6047:6180" ph="update items... " />
+            <marker date="1525878096388" expanded="true" signature="6251:6309" ph="update items... " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/mapper/ItemsMapper.java">
+    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/src/main/java/com/wq/item/mapper/ItemsMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
@@ -1334,14 +1466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1025">
           <caret line="41" column="44" lean-forward="false" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
           <folding />
         </state>
       </provider>
@@ -1453,10 +1577,158 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-service-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="11" column="8" lean-forward="false" selection-start-line="11" selection-start-column="8" selection-end-line="37" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="43" column="21" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="43" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wq-dubbo/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="45" column="26" lean-forward="true" selection-start-line="45" selection-start-column="26" selection-end-line="45" selection-end-column="26" />
+        <state relative-caret-position="-5319">
+          <caret line="14" column="16" lean-forward="false" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/item/mapper/ItemsMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/item/mapper/ItemsMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="130" column="75" lean-forward="false" selection-start-line="130" selection-start-column="75" selection-end-line="130" selection-end-column="75" />
+          <folding>
+            <marker date="1525879064092" expanded="true" signature="3358:3459" ph="select from items" />
+            <marker date="1525879064092" expanded="true" signature="3545:3600" ph="delete from " />
+            <marker date="1525879064092" expanded="true" signature="3696:3713" ph="delete from " />
+            <marker date="1525879064092" expanded="true" signature="3886:4026" ph="insert into items... " />
+            <marker date="1525879064092" expanded="true" signature="4805:4831" ph="select count... items" />
+            <marker date="1525879064092" expanded="true" signature="5507:5658" ph="update items... " />
+            <marker date="1525879064092" expanded="true" signature="5862:6110" ph="update items... " />
+            <marker date="1525879064092" expanded="true" signature="6202:6335" ph="update items... " />
+            <marker date="1525879064092" expanded="true" signature="6423:6481" ph="update items... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/java/com/wq/item/service/impl/ItemsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/dubbo/dubbo.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4875">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/mybatis/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/resource/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="42" column="66" lean-forward="true" selection-start-line="42" selection-start-column="66" selection-end-line="43" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="14" column="57" lean-forward="true" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-transaction.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/src/main/resources/spring/applicationContext-dubbo-provider.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -1515,12 +1787,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>wq-dubbo-item-api</last-edited>
+          <last-edited>wq-dubbo-item-service</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

@@ -10,8 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>wq-dubbo-item-api</module>
+        <module>wq-dubbo-item-service</module>
     </modules>
-
+<!--这一层主要进行实现-->
     <!-- 集中定义依赖版本号 -->
     <properties>
         <spring.version>4.3.13.RELEASE</spring.version>

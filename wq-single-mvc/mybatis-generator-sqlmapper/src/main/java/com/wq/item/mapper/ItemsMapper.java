@@ -1,14 +1,12 @@
-package com.wq.mapper;
-
-import java.util.List;
-
-import org.apache.ibatis.annotations.Param;
+package com.wq.item.mapper;
 
 import com.wq.item.pojo.Items;
 import com.wq.item.pojo.ItemsExample;
+import java.util.List;
+import org.apache.ibatis.annotations.Param;
 
 public interface ItemsMapper {
-    int countByExample(ItemsExample example);
+    long countByExample(ItemsExample example);
 
     int deleteByExample(ItemsExample example);
 
@@ -29,6 +27,4 @@ public interface ItemsMapper {
     int updateByPrimaryKeySelective(Items record);
 
     int updateByPrimaryKey(Items record);
-    
-    int reduceCounts(Items record);
 }

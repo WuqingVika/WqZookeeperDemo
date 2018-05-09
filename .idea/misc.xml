@@ -40,6 +40,7 @@
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api" />
+    <file type="web" url="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service" />
     <file type="web" url="file://$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper" />
     <file type="web" url="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web" />
     <file type="web" url="file://$PROJECT_DIR$/zookeeper-curator" />

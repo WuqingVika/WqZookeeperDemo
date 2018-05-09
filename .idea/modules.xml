@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/mybatis-generator-sqlmapper.iml" filepath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/mybatis-generator-sqlmapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/wq-dubbo-item-api.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/wq-dubbo-item-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/wq-dubbo-item-service.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/wq-dubbo-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/wq-single-mvc-common.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/wq-single-mvc-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/wq-single-mvc-mapper.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/wq-single-mvc-mapper.iml" />
