@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/wq-dubbo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/wq-single-mvc" charset="UTF-8" />

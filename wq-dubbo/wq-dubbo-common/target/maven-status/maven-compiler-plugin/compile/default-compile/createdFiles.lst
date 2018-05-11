@@ -1,0 +1,6 @@
+com\wq\common\enums\OrderStatusEnum.class
+com\wq\common\utils\IWqJSONResult.class
+com\wq\common\utils\JsonUtils.class
+com\wq\common\enums\YesOrNo.class
+com\wq\common\pojo\JqGridResult.class
+com\wq\common\enums\SexEnum.class

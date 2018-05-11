@@ -6,6 +6,7 @@
       <module fileurl="file://D:\wqlesson\zookeeperdemo\wq-single-mvc\wq-single-mvc-web\imooc-single-mvc-web.iml" filepath="D:\wqlesson\zookeeperdemo\wq-single-mvc\wq-single-mvc-web\imooc-single-mvc-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/mybatis-generator-sqlmapper.iml" filepath="$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/mybatis-generator-sqlmapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-common/wq-dubbo-common.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-common/wq-dubbo-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/wq-dubbo-item-api.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-api/wq-dubbo-item-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/wq-dubbo-item-service.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/wq-dubbo-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" />

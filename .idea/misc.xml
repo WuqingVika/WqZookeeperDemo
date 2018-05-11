@@ -55,6 +55,7 @@
         <option value="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/wq-single-mvc/pom.xml" />
         <option value="$PROJECT_DIR$/wq-dubbo/pom.xml" />
+        <option value="$PROJECT_DIR$/wq-dubbo/wq-dubbo-common/pom.xml" />
       </list>
     </option>
   </component>
