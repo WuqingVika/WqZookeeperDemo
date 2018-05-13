@@ -1,0 +1,6 @@
+com\wq\order\pojo\OrdersExample$Criterion.class
+com\wq\order\pojo\OrdersExample$Criteria.class
+com\wq\order\service\OrdersService.class
+com\wq\order\pojo\OrdersExample.class
+com\wq\order\pojo\OrdersExample$GeneratedCriteria.class
+com\wq\order\pojo\Orders.class

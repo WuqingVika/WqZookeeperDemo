@@ -5,7 +5,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wq.item.service.ItemsService;
+import com.wq.order.service.ItemsService;
 import com.wq.order.service.OrdersService;
 import com.wq.web.service.BuyService;
 

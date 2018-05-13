@@ -15,7 +15,7 @@
 	<dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
 
 	<!-- 暴露具体的服务接口 重试次数3次 多个服务就得多个端口号哦-->
-	<dubbo:service retries="3" interface="com.wq.item.service.ItemsService"
+	<dubbo:service retries="3" interface="com.wq.order.service.ItemsService"
 		ref="itemsService"></dubbo:service>
 	
 </beans>

@@ -1,2 +1,3 @@
-com\wq\item\service\impl\ItemsServiceImpl.class
-com\wq\item\mapper\ItemsMapper.class
+com\wq\order\mapper\ItemsMapper.class
+com\wq\order\service\impl\ItemsServiceImpl.class
+com\wq\order\starter\ItemApplication.class

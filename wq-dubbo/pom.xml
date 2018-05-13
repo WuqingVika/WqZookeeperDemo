@@ -11,6 +11,8 @@
     <modules>
         <module>wq-dubbo-item-api</module>
         <module>wq-dubbo-item-service</module>
+        <module>wq-dubbo-order-service</module>
+        <module>wq-dubbo-order-api</module>
         <module>wq-dubbo-common</module>
     </modules>
 <!--这一层主要进行实现-->
