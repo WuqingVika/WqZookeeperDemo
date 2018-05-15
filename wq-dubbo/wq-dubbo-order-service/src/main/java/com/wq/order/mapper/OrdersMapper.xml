@@ -91,13 +91,13 @@
     delete from orders
     where id = #{id,jdbcType=VARCHAR}
   </delete>
-  <delete id="deleteByExample" parameterType="OrdersExample" >
+  <delete id="deleteByExample" parameterType="com.wq.order.pojo.OrdersExample" >
     delete from orders
     <if test="_parameter != null" >
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="Orders" >
+  <insert id="insert" parameterType="com.wq.order.pojo.Orders" >
     insert into orders (id, order_num, item_id
       )
     values (#{id,jdbcType=VARCHAR}, #{orderNum,jdbcType=VARCHAR}, #{itemId,jdbcType=VARCHAR}

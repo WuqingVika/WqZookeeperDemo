@@ -18,6 +18,7 @@
         <module name="wq-dubbo-item-service" />
         <module name="wq-dubbo-order-api" />
         <module name="wq-dubbo-order-service" />
+        <module name="wq-dubbo-web" />
         <module name="wq-single-mvc-common" />
         <module name="wq-single-mvc-mapper" />
         <module name="wq-single-mvc-pojo" />
@@ -43,6 +44,7 @@
       <module name="wq-dubbo-item-service" target="1.8" />
       <module name="wq-dubbo-order-api" target="1.8" />
       <module name="wq-dubbo-order-service" target="1.8" />
+      <module name="wq-dubbo-web" target="1.8" />
       <module name="wq-single-mvc" target="1.8" />
       <module name="wq-single-mvc-common" target="1.8" />
       <module name="wq-single-mvc-mapper" target="1.8" />

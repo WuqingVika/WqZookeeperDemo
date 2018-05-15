@@ -15,7 +15,7 @@
 	<dubbo:protocol name="dubbo" port="20881"></dubbo:protocol><!--这里和商品服务应用端口号不一样哦-->
 
 	<!-- 暴露具体的服务接口 重试次数3次 多个服务就得多个端口号哦-->
-	<dubbo:service retries="3" interface="com.wq.order.service.OrdersService"
+	<dubbo:service retries="3" interface="com.wq.order.service.OrdersService" timeout="1200000"
 		ref="ordersService"></dubbo:service>
 	
 </beans>

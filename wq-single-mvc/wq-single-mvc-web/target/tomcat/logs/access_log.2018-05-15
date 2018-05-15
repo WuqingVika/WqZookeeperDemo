@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [15/May/2018:21:27:02 +0800] "GET /buy.action?itemId=1 HTTP/1.1" 200 58 http-bio-8080-exec-1 2266
+0:0:0:0:0:0:0:1 - - [15/May/2018:21:27:04 +0800] "GET /favicon.ico HTTP/1.1" 404 973 http-bio-8080-exec-2 7

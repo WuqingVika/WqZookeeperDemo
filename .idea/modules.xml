@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/wq-dubbo-item-service.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/wq-dubbo-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-order-api/wq-dubbo-order-api.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-order-api/wq-dubbo-order-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-order-service/wq-dubbo-order-service.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-order-service/wq-dubbo-order-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wq-dubbo/wq-dubbo-web/wq-dubbo-web.iml" filepath="$PROJECT_DIR$/wq-dubbo/wq-dubbo-web/wq-dubbo-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/wq-single-mvc-common.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-common/wq-single-mvc-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/wq-single-mvc-mapper.iml" filepath="$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-mapper/wq-single-mvc-mapper.iml" />

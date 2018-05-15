@@ -2,14 +2,14 @@ package com.wq.order.service.impl;
 
 import java.util.UUID;
 
+import com.wq.order.service.OrdersService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.wq.order.mapper.OrdersMapper;
-import com.wq.order.service.OrdersService;
-import com.wq.order.pojo.Orders;
+import com.wq.mapper.OrdersMapper;
+import com.wq.pojo.Orders;
 
 @Service("ordersService")
 public class OrdersServiceImpl implements OrdersService {

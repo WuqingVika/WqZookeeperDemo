@@ -12,7 +12,7 @@
     <packaging>jar</packaging>
     <artifactId>wq-dubbo-item-service</artifactId>
     <dependencies>
-        <dependency>
+       <dependency>
             <groupId>com.wq</groupId>
             <artifactId>wq-dubbo-item-api</artifactId>
             <version>1.0-SNAPSHOT</version>
@@ -120,11 +120,20 @@
             </plugin>
         </plugins>
     </build>-->
-    <!--第三种启动方式 这种方式使用jar包方式打包 记得用管理员身份运行 java -jar wq-dubbo-item-service.jar-->
+    <!--第三种启动方式 这种方式使用jar包方式打包 记得用管理员身份运行 java -jar wq-duorderitem-service.jar-->
     <build>
         <finalName>wq-dubbo-item-service</finalName>
 
         <resources>
+            <resource>
+                <targetPath>${project.build.directory}/classes</targetPath>
+                <directory>src/main/java</directory>
+                <filtering>true</filtering>
+                <includes>
+                    <include>**/*.xml</include>
+                    <include>**/*.properties</include>
+                </includes>
+            </resource>
             <resource>
                 <targetPath>${project.build.directory}/classes</targetPath>
                 <directory>src/main/resources</directory>

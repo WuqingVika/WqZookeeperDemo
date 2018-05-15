@@ -1,3 +1,0 @@
-0:0:0:0:0:0:0:1 - - [08/May/2018:23:09:37 +0800] "GET /index.action HTTP/1.1" 200 21 http-bio-8080-exec-1 1166
-0:0:0:0:0:0:0:1 - - [08/May/2018:23:10:20 +0800] "GET /buy.action HTTP/1.1" 200 76 http-bio-8080-exec-5 228
-0:0:0:0:0:0:0:1 - - [08/May/2018:23:12:02 +0800] "GET /buy.action?itemId=1 HTTP/1.1" 200 58 http-bio-8080-exec-9 1053

@@ -1,2 +1,3 @@
-D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-item-service\src\main\java\com\wq\item\mapper\ItemsMapper.java
-D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-item-service\src\main\java\com\wq\item\service\impl\ItemsServiceImpl.java
+D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-order-service\src\main\java\com\wq\order\starter\OrderApplication.java
+D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-order-service\src\main\java\com\wq\order\mapper\OrdersMapper.java
+D:\wqlesson\zookeeperdemo\wq-dubbo\wq-dubbo-order-service\src\main\java\com\wq\order\service\impl\OrdersServiceImpl.java

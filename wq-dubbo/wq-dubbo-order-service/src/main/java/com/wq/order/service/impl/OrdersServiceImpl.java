@@ -29,6 +29,8 @@ public class OrdersServiceImpl implements OrdersService {
 		
 		// 创建订单
 		String oid = UUID.randomUUID().toString().replaceAll("-", "");
+
+		System.out.println(oid);
 		Orders o = new Orders();
 		o.setId(oid);
 		o.setOrderNum(oid);

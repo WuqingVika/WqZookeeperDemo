@@ -120,9 +120,9 @@
             </plugin>
         </plugins>
     </build>
-    <!--第三种启动方式 这种方式使用jar包方式打包 记得用管理员身份运行 java -jar wq-dubbo-item-service.jar-->
+    <!--第三种启动方式 这种方式使用jar包方式打包 记得用管理员身份运行 java -jar wq-duorderitem-service.jar-->
    <!-- <build>
-        <finalName>wq-dubbo-item-service</finalName>
+        <finalName>wq-duorderitem-service</finalName>
 
         <resources>
             <resource>
