@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="imooc-single-mvc-web:war">
-    <output-path>$PROJECT_DIR$/wq-single-mvc/imooc-single-mvc-web/target</output-path>
-    <root id="archive" name="imooc-single-mvc-web-0.0.1-SNAPSHOT.war">
-      <element id="artifact" artifact-name="imooc-single-mvc-web:war exploded" />
-    </root>
-  </artifact>
-</component>

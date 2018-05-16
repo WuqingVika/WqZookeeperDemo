@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="mybatis-generator-sqlmapper:war">
-    <output-path>$PROJECT_DIR$/wq-single-mvc/mybatis-generator-sqlmapper/target</output-path>
-    <root id="archive" name="mybatis-generator-sqlmapper.war">
-      <element id="artifact" artifact-name="mybatis-generator-sqlmapper:war exploded" />
-    </root>
-  </artifact>
-</component>

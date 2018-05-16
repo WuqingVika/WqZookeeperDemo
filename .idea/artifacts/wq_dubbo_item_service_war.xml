@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="wq-dubbo-item-service:war">
-    <output-path>$PROJECT_DIR$/wq-dubbo/wq-dubbo-item-service/target</output-path>
-    <root id="archive" name="wq-dubbo-item-service.war">
-      <element id="artifact" artifact-name="wq-dubbo-item-service:war exploded" />
-    </root>
-  </artifact>
-</component>

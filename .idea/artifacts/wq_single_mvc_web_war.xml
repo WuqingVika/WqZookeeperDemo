@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="wq-single-mvc-web:war">
-    <output-path>$PROJECT_DIR$/wq-single-mvc/wq-single-mvc-web/target</output-path>
-    <root id="archive" name="wq-single-mvc-web.war">
-      <element id="artifact" artifact-name="wq-single-mvc-web:war exploded" />
-    </root>
-  </artifact>
-</component>
