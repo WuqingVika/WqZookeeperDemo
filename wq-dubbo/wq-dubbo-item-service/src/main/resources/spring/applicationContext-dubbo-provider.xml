@@ -9,7 +9,7 @@
 	<dubbo:application name="wq-dubbo-item-service"></dubbo:application>
 	
 	<!-- 注册中心的配置，使用zk暴露服务 如果 是集群 使用逗号分隔 -->
-	<dubbo:registry protocol="zookeeper" address="192.168.1.124:2181"></dubbo:registry>
+	<dubbo:registry protocol="zookeeper" address="192.168.1.127:2181"></dubbo:registry>
 	
 	<!-- 定义暴露服务的端口号 -->
 	<dubbo:protocol name="dubbo" port="20880"></dubbo:protocol>
