@@ -9,7 +9,7 @@
 	<dubbo:application name="wq-dubbo-order-service"></dubbo:application>
 	
 	<!-- 注册中心的配置，使用zk暴露服务 如果 是集群 使用逗号分隔 -->
-	<dubbo:registry protocol="zookeeper" address="192.168.1.127:2181"></dubbo:registry>
+	<dubbo:registry protocol="zookeeper" address="192.168.1.124:2181"></dubbo:registry>
 	
 	<!-- 定义暴露服务的端口号 -->
 	<dubbo:protocol name="dubbo" port="20881"></dubbo:protocol><!--这里和商品服务应用端口号不一样哦-->
@@ -17,5 +17,5 @@
 	<!-- 暴露具体的服务接口 重试次数3次 多个服务就得多个端口号哦-->
 	<dubbo:service retries="3" interface="com.wq.order.service.OrdersService" timeout="1200000"
 		ref="ordersService"></dubbo:service>
-	
+	<dubbo:monitor protocol="registry"></dubbo:monitor>
 </beans>

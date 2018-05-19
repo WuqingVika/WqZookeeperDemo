@@ -34,7 +34,7 @@ public class PayController {
 			return IWqJSONResult.errorMsg("商品id不能为空");
 		}
 		
-		return IWqJSONResult.ok();
+		return IWqJSONResult.ok("订单创建成功");
 	}
 	
 }
